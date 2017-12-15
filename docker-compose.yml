@@ -3,7 +3,7 @@ web:
   volumes:
     - ./wwwroot:/usr/share/nginx/html
   ports:
-    - "8090:80"
+    - "8080:80"
   environment:
     - NGINX_HOST=domain.com
     - NGINX_PORT=80
