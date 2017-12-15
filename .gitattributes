@@ -1,4 +1,4 @@
-*.c linguist-language=docker
-*.js linguist-language=docker
-*.css linguist-language=docker
-*.html linguist-language=docker
+*.c linguist-language=Shell
+*.js linguist-language=Shell
+*.css linguist-language=Shell
+*.html linguist-language=Shell
