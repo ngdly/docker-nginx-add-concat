@@ -1,0 +1,9 @@
+web:
+  image: ngdly/nginx-add-concat
+  volumes:
+    - ./wwwroot:/usr/share/nginx/html
+  ports:
+    - "8090:80"
+  environment:
+    - NGINX_HOST=domain.com
+    - NGINX_PORT=80
