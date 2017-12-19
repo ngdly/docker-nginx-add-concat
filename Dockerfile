@@ -1,6 +1,6 @@
 FROM alpine:3.5
 
-LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
+LABEL maintainer="NGDLY <ngdly@qq.com>"
 
 ENV NGINX_VERSION 1.12.2
 
